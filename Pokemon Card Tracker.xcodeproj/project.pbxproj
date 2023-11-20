@@ -52,7 +52,12 @@
 			isa = PBXGroup;
 			children = (
 				6D1BE3502B0B151900D2BCA1 /* Pokemon_Card_TrackerApp.swift */,
-				6D1BE3522B0B151900D2BCA1 /* ContentView.swift */,
+				6D1BE3642B0B1A7500D2BCA1 /* Views */,
+				6D1BE3632B0B1A5D00D2BCA1 /* Manager */,
+				6D1BE3622B0B1A5000D2BCA1 /* Data */,
+				6D1BE3612B0B1A4600D2BCA1 /* Helpers */,
+				6D1BE3602B0B1A3400D2BCA1 /* ViewModels */,
+				6D1BE35F2B0B1A2700D2BCA1 /* Models */,
 				6D1BE3542B0B151A00D2BCA1 /* Assets.xcassets */,
 				6D1BE3562B0B151A00D2BCA1 /* Preview Content */,
 			);
@@ -65,6 +70,49 @@
 				6D1BE3572B0B151A00D2BCA1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6D1BE35F2B0B1A2700D2BCA1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6D1BE3602B0B1A3400D2BCA1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6D1BE3612B0B1A4600D2BCA1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6D1BE3622B0B1A5000D2BCA1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6D1BE3632B0B1A5D00D2BCA1 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		6D1BE3642B0B1A7500D2BCA1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6D1BE3522B0B151900D2BCA1 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
