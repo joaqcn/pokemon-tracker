@@ -11,6 +11,10 @@
 		6D1BE3532B0B151900D2BCA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1BE3522B0B151900D2BCA1 /* ContentView.swift */; };
 		6D1BE3552B0B151A00D2BCA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D1BE3542B0B151A00D2BCA1 /* Assets.xcassets */; };
 		6D1BE3582B0B151A00D2BCA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D1BE3572B0B151A00D2BCA1 /* Preview Assets.xcassets */; };
+		6D1BE3672B0B1AF600D2BCA1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1BE3662B0B1AF600D2BCA1 /* HomeView.swift */; };
+		6D1BE3692B0B1D0700D2BCA1 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1BE3682B0B1D0700D2BCA1 /* SearchBarView.swift */; };
+		6D8C64D52B0B22490006C74E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C64D42B0B22490006C74E /* CardView.swift */; };
+		6D8C64D72B0B22580006C74E /* CardViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C64D62B0B22580006C74E /* CardViewItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		6D1BE3522B0B151900D2BCA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6D1BE3542B0B151A00D2BCA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D1BE3572B0B151A00D2BCA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6D1BE3662B0B1AF600D2BCA1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6D1BE3682B0B1D0700D2BCA1 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		6D8C64D42B0B22490006C74E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		6D8C64D62B0B22580006C74E /* CardViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +118,21 @@
 		6D1BE3642B0B1A7500D2BCA1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6D1BE3652B0B1AE300D2BCA1 /* Home */,
 				6D1BE3522B0B151900D2BCA1 /* ContentView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		6D1BE3652B0B1AE300D2BCA1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6D1BE3662B0B1AF600D2BCA1 /* HomeView.swift */,
+				6D1BE3682B0B1D0700D2BCA1 /* SearchBarView.swift */,
+				6D8C64D42B0B22490006C74E /* CardView.swift */,
+				6D8C64D62B0B22580006C74E /* CardViewItem.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,8 +205,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D1BE3692B0B1D0700D2BCA1 /* SearchBarView.swift in Sources */,
+				6D1BE3672B0B1AF600D2BCA1 /* HomeView.swift in Sources */,
 				6D1BE3532B0B151900D2BCA1 /* ContentView.swift in Sources */,
 				6D1BE3512B0B151900D2BCA1 /* Pokemon_Card_TrackerApp.swift in Sources */,
+				6D8C64D52B0B22490006C74E /* CardView.swift in Sources */,
+				6D8C64D72B0B22580006C74E /* CardViewItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
